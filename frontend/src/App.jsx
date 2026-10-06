@@ -6,7 +6,7 @@ function App() {
 
     useEffect(() => {
 
-        fetch("http://localhost:5000/api/students")
+        fetch("https://mern-experiment16-backend.onrender.com/api/students")
             .then(response => response.json())
             .then(data => {
                 setStudents(data);
